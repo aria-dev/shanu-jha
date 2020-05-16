@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+  .hide-shrink {
+    opacity: 0;
+    clear: both;
+    float: left;
+    margin: 10px 40px 5px 20px;
+    padding: 32px;
+    width: 28%;
+    height: 32px;
+    -webkit-user-select: none;
+  }
+}
