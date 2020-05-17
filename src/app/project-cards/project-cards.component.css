@@ -1,0 +1,14 @@
+.temp-image {
+  margin-top: 12px;
+  width: 100%;
+  height: 50vh;
+  background: #00e676;
+}
+
+.bg-light-green {
+  background: #00e676;
+}
+
+.btn-full {
+  width: 100%;
+}

@@ -1,4 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+}
+
+hr {
+  border-top: 1px dashed #474747;
+  border-width: 5px;
+}
+
+.site-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.white-on-hover {
+  color: inherit;
+}
+
+.white-on-hover:hover {
+  color: white;
+}
+
+.fly-on-hover {
+}
+
+.fly-on-hover:hover {
+  margin-bottom: 5px;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-on-shrink {
+    display: none;
+  }
+
+  .padding-on-shrink {
+    margin-top: 32px;
+    display: block;
+  }
+
+  .padding-on-shrink::before {
+    content: "";
+  }
+}
